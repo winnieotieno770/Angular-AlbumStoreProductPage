@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { ProductService } from './product.service';
-import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
+import { ProductTracklistingComponent  } from './product-tracklisting/product-tracklisting.component';
 
 
 @NgModule({
@@ -23,9 +23,7 @@ import { ProductTracklistingComponent } from './product-tracklisting/product-tra
     HttpModule,
     
   ],
-  providers: [
-    ProductService
-  ],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
